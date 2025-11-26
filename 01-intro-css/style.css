@@ -1,0 +1,40 @@
+
+/* Selector general, universal */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Selector de etiqueta */
+
+body{
+    background-color: #232323;
+    color: #fff;
+}
+
+
+/* Selector de clase */
+
+.btn{
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+/* Selector de ID */
+#social-icons{
+    background-color: rgba(255, 166, 0, 0.582);
+}
+
+/* Selectores avanzados */
+#social-icons .btn{
+    border-radius: 18px;
+}
+
+/* Pseudoclase */
+.btn:hover{
+    background-color: blueviolet;
+    color: #fff
+}
+
+/* Juego CSS: https://flukeout.github.io/  */
