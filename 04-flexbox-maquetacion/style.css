@@ -7,15 +7,22 @@
 
 .contenedor-flexible{
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* align-items: stretch; */ /* Sirve para una sola linea de contenido */
+    flex-wrap: nowrap;
+    align-content: flex-start; /* Sirve para mas de una linea de contenido */
+    gap: 10px;
+
     background-color: darkorchid;
-    justify-content: space-evenly;
     border: 2px black solid;
     width: 600px;
-    color: azure;
+    height: 500px;
+    color: azure
 }
 
 .boxy{
-    width: 100px;
+    width: 50%;
     height: 100px;
     background-color:gold;
     border: 2px black solid;
