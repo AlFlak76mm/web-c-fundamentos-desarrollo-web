@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-flexible{
+    display: flex;
+    background-color: darkorchid;
+    justify-content: space-evenly;
+    border: 2px black solid;
+    width: 600px;
+    color: azure;
+}
+
+.boxy{
+    width: 100px;
+    height: 100px;
+    background-color:gold;
+    border: 2px black solid;
+    font-size: 2rem;
+}
