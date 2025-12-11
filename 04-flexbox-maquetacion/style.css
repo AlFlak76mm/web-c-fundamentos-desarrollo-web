@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: lightgrey;
+}
+
 .contenedor-flexible{
     display: flex;
     flex-direction: row;
@@ -27,4 +31,46 @@
     background-color:gold;
     border: 2px black solid;
     font-size: 2rem;
+}
+
+/* Estilos del card */
+img{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 685px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card-content{ 
+    color: rgb(77, 97, 77);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+    gap: 15px;
+}
+
+.card-content h2{
+    font-size: 1.3rem;
+}
+
+.card-content p{
+    font-size: 0.8rem;
+}
+
+.card-user-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-user-info img{
+    border-radius: 50%;
 }
