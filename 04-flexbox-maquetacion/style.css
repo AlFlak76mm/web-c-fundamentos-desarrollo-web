@@ -65,6 +65,7 @@ img{
     font-size: 0.8rem;
 }
 
+
 .card-user-info{
     display: flex;
     align-items: center;
@@ -74,3 +75,13 @@ img{
 .card-user-info img{
     border-radius: 50%;
 }
+
+.card-user-info p{
+    color: rgb(43, 56, 43);
+}
+
+.card-user-info span{
+    color: rgb(150, 148, 148);
+    font-size: 0.8rem;
+}
+
