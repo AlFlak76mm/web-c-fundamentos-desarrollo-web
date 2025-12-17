@@ -1,186 +1,232 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 /* Clon de starbucks */
-header{
-    display: flex;
-    justify-content: center;
-    /* background-color: lightsteelblue; */
-    padding: 20px 0;
-    border-bottom: 1px solid #bdbdbd;
+header {
+  display: flex;
+  justify-content: center;
+  /* background-color: lightsteelblue; */
+  padding: 20px 0;
+  border-bottom: 1px solid #bdbdbd;
 }
 
-.container{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1300px;
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
 }
 
-.header-left{
-    display: flex;
-    align-items: center;
-    column-gap: 20px;
+.header-left {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
 }
 
-nav{
-    display: flex;
-    gap: 15px;
+nav {
+  display: flex;
+  gap: 15px;
 }
 
-.header-left nav a{
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-    transition-duration: .5s;
+.header-left nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  transition-duration: 0.5s;
 }
 
-.header-left nav a:hover{
-    color: #00754a;
+.header-left nav a:hover {
+  color: #00754a;
 }
 
-.header-right{
-    display: flex;
-    column-gap: 20px;
-    align-items: center;
+.header-right {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
 }
 
-.locacion a{
-    text-decoration: none;
-    color: black;
-    transition-duration: .5s;
+.locacion a {
+  text-decoration: none;
+  color: black;
+  transition-duration: 0.5s;
 }
 
-.locacion a:hover{
-color: #00754a;
+.locacion a:hover {
+  color: #00754a;
 }
 
-.btn-registro{
-    padding: 10px 20px;
-    border-radius: 25px;
-    border: none;
-    background-color: black;
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
+.btn-registro {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.btn-iniciar{
-    padding: 10px 20px;
-    border-radius: 25px;
-    border: 1px solid black;
-    background-color: #fff;
-    color: black;
-    font-weight: bold;
-    cursor: pointer;
+.btn-iniciar {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid black;
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 /* Banner principal - Practica independiente */
 
-.container-banner{
-    width: 100%;
-    margin: 50px auto auto auto;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    max-width: 1000px;
-    height: 350px;
-    background-color: #00754a;
-    overflow: hidden;
+.container-banner {
+  width: 100%;
+  margin: 50px auto auto auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 1000px;
+  height: 350px;
+  background-color: #00754a;
+  overflow: hidden;
 }
 
-.banner-left{
-    color: white;
-    font-size: 1.8rem;
-    padding: 20px;
+.banner-left {
+  color: white;
+  font-size: 1.8rem;
+  padding: 20px;
 }
 
-.buscar{
-    padding: 15px 20px;
-    background-color: #fff;
-    border-radius: 50px;
-    font-size: 1rem;
-    margin-top: 10%;
-    width: 200px;
+.buscar {
+  padding: 15px 20px;
+  background-color: #fff;
+  border-radius: 50px;
+  font-size: 1rem;
+  margin-top: 10%;
+  width: 200px;
 }
 
-.buscar a{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
+.buscar a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.banner-rigth{
-    display: flex;
+.banner-rigth {
+  display: flex;
 }
-
 
 /* Banner */
 
-.banner{
-    display: flex;
-    width: 100%;
-    max-width: 1200px;
-    border-radius: 10px;
-    margin: auto;
-    background-color: #00754a;
+.banner {
+  display: flex;
+  width: 100%;
+  max-width: 1250px;
+  border-radius: 15px;
+  margin: 50px auto;
+  overflow: hidden;
 }
 
+.banner-info,.banner-image{
+  width: 50%;
+}
+
+.banner-info{
+    padding: 100px 0 100px 50px;
+    background-color: #00754a;
+    color: #fff;
+}
+
+.banner-info a{
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.banner-image {
+  position: relative;
+  background-image: url(https://cdn.pixabay.com/photo/2019/09/04/20/34/field-4452538_1280.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-image .malteada{
+    position: absolute;
+    width: 250px;
+    right: 5%;
+    bottom: 0%;
+    z-index: 1;
+}
+
+.fresa{
+    position: absolute;
+    width: 80px;
+    right: 14%;
+    transform: rotate(20deg);
+}
+
+.galleta{
+    position: absolute;
+    width: 120px;
+    right: 5%;
+    bottom: 0%;
+    z-index: 2;
+}
 
 /* Footer */
 
-.footer-container{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    max-width: 1300px;
-    gap: 40px;
-    margin: auto;
-    /* background-color: aliceblue; */
+.footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 1300px;
+  gap: 40px;
+  margin: auto;
+  /* background-color: aliceblue; */
 }
 
-footer{
-    background-color: #1e3932;
-    color: #fff;
-    padding: 50px  0; /* Espacio en altura y base; Espacio en los lados */
-    
+footer {
+  background-color: #1e3932;
+  color: #fff;
+  padding: 50px 0; /* Espacio en altura y base; Espacio en los lados */
 }
 
-footer a{
-    color: #ffffffb9;
-    text-decoration: none;
-    transition-duration: 600ms;
+footer a {
+  color: #ffffffb9;
+  text-decoration: none;
+  transition-duration: 600ms;
 }
 
-footer a:hover{
-    color: white;
+footer a:hover {
+  color: white;
 }
 
-footer nav{
-    display: flex;
-    flex-direction: column;
+footer nav {
+  display: flex;
+  flex-direction: column;
 }
 
-footer h3{
-    margin-bottom: 30px;
+footer h3 {
+  margin-bottom: 30px;
 }
-
-
 
 /* Practica conceptos */
 
-
-.contenedor-flexible{
-  display: flex; 
+.contenedor-flexible {
+  display: flex;
   flex-direction: row;
-  justify-content:flex-start;
+  justify-content: flex-start;
   align-items: center;
   align-content: flex-start;
   flex-wrap: nowrap;
@@ -192,7 +238,7 @@ footer h3{
   color: white;
 }
 
-.boxy{
+.boxy {
   display: flex;
   /* width: 50%; */
   height: 80px;
@@ -203,16 +249,16 @@ footer h3{
   align-items: center;
 }
 
-.pato{
-    align-self: auto;
-    width: 50px;
-    width: 40%;
+.pato {
+  align-self: auto;
+  width: 50px;
+  width: 40%;
 }
 
-.foca{
-    align-self: auto;
-    width: 40%;
-    flex-shrink: 3;
+.foca {
+  align-self: auto;
+  width: 40%;
+  flex-shrink: 3;
 }
 
 /* .perro{
@@ -220,8 +266,7 @@ footer h3{
     flex-grow: 1;
 } */
 
-.vaca{
-    align-self: auto;
-    width: 40%;
+.vaca {
+  align-self: auto;
+  width: 40%;
 }
-
