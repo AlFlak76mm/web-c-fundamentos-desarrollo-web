@@ -121,6 +121,19 @@ color: #00754a;
     display: flex;
 }
 
+
+/* Banner */
+
+.banner{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #00754a;
+}
+
+
 /* Footer */
 
 .footer-container{
