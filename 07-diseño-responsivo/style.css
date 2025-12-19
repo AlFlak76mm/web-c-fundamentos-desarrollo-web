@@ -1,0 +1,46 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box{
+  font-size: 2em; /* 16px * 2 */
+  width: 100vw;
+  height: 100vh;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+
+@media screen and (max-width: 1200px){
+    .box{
+        background-color: rgb(190, 202, 136);
+        color: rgb(175, 188, 1);
+        font-family: sans-serif;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .box{
+        background-color: rgb(136, 178, 202);
+        color: rgb(21, 27, 197);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: flex-end;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    .box{
+        background-color: rgb(202, 179, 136);
+        color: indianred;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+
