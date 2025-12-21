@@ -22,6 +22,7 @@
         background-color: rgb(190, 202, 136);
         color: rgb(175, 188, 1);
         font-family: sans-serif;
+        align-items: flex-start;
     }
 }
 
